@@ -13,13 +13,13 @@ Par exemple, on peut utiliser fetch pour demander des informations à une API (c
 ```js
 fetch('https://api.example.com/data');
 Quand tu utilises fetch, il te retourne une promesse. Une promesse est une façon pour JavaScript de dire :
-"Je vais essayer de récupérer les données, mais ça peut prendre un peu de temps. Quand j'aurai fini, je te dirai ce qui s'est passé."
+*"Je vais essayer de récupérer les données, mais ça peut prendre un peu de temps. Quand j'aurai fini, je te dirai ce qui s'est passé."*
 ```
 
 ### then : Que faire une fois que les données sont là
 
 then est une fonction qui permet de dire :
-"Quand j'ai reçu la réponse du serveur, voici ce que je veux faire avec."
+*"Quand j'ai reçu la réponse du serveur, voici ce que je veux faire avec."*
 
 Exemple :
 
