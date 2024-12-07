@@ -12,9 +12,10 @@ Par exemple, on peut utiliser fetch pour demander des informations à une API (c
 
 ```js
 fetch('https://api.example.com/data');
+```
+
 Quand tu utilises fetch, il te retourne une promesse. Une promesse est une façon pour JavaScript de dire :
 "_Je vais essayer de récupérer les données, mais ça peut prendre un peu de temps. Quand j'aurai fini, je te dirai ce qui s'est passé._"
-```
 
 ### then : Que faire une fois que les données sont là
 
