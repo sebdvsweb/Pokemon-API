@@ -7,14 +7,14 @@ Et d'afficher nos Pokémons de manière dynamique dans des cards Bootstrap.
 
 ### fetch : Récupérer des données
 
-Le rôle de fetch est d'envoyer une requête à un serveur pour récupérer des données.
+Le rôle de fetch est d'envoyer une **requête** à un serveur pour récupérer des données.
 Par exemple, on peut utiliser fetch pour demander des informations à une API (comme des Pokémon, des films, etc.).
 
 ```js
 fetch('https://api.example.com/data');
 ```
 
-Quand tu utilises fetch, il te retourne une promesse. Une promesse est une façon pour JavaScript de dire :
+Quand tu utilises fetch, il te retourne une **promesse**. Une promesse est une façon pour JavaScript de dire :
 "_Je vais essayer de récupérer les données, mais ça peut prendre un peu de temps. Quand j'aurai fini, je te dirai ce qui s'est passé._"
 
 ### then : Que faire une fois que les données sont là
@@ -31,7 +31,7 @@ fetch('https://api.example.com/data')
   });
 ```
 
-Dans le then, la première chose qu'on fait souvent est de convertir la réponse en JSON, car c'est un format courant pour les données. On utilise alors :
+Dans le then, la première chose qu'on fait souvent est de **convertir** la réponse en JSON, car c'est un format courant pour les données. On utilise alors :
 
 ```js
 fetch('https://api.example.com/data')
@@ -42,7 +42,7 @@ fetch('https://api.example.com/data')
 
 ### return : Passer les données à l'étape suivante
 
-Quand tu utilises return dans un then, tu passes les données à l'étape suivante de la promesse.
+Quand tu utilises **return** dans un then, tu passes les données à l'étape suivante de la promesse.
 
 Exemple complet :
 
